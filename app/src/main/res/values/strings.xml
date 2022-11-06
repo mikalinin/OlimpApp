@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Olimpv2</string>
+    <!--  screen_6 strings  -->
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="login_string">Login</string>
+    <string name="sign_up_string">Sign up</string>
+    <string name="login_ek1_string">Login</string>
+    <string name="email_ek1_string">Email </string>
+    <string name="tom_mail_com_string">tom@mail.com</string>
+    <string name="password_ek1_string">Password</string>
+    <string name="show_string">Show</string>
+    <string name="_________________string">* * * * * * * * </string>
+    <string name="forgot_password__string">Forgot password?</string>
+    <string name="create_account_string">Create account</string>
+    <string name="educora_string">Educora</string>
+    <string name="e_learning_platform_string">E-Learning platform </string>
+</resources>
