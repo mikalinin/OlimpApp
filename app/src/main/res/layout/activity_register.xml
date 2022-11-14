@@ -7,7 +7,7 @@
     tools:context=".register">
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/edit_name"
         android:layout_width="201dp"
         android:layout_height="49dp"
         android:layout_marginTop="100dp"
@@ -41,7 +41,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/edit_login_reg"
         android:layout_width="201dp"
         android:layout_height="49dp"
         android:layout_marginTop="236dp"
@@ -63,7 +63,7 @@
         tools:layout_editor_absoluteX="16dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edit_class"
         android:layout_width="201dp"
         android:layout_height="49dp"
         android:layout_marginTop="168dp"
