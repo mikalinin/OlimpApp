@@ -14,14 +14,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val edit_login: EditText= findViewById(R.id.edit_login)
         val edit_password: EditText=findViewById(R.id.edit_password1)
-        var reg_button: Button = findViewById(R.id.reg_button)
+        val reg_button: Button = findViewById(R.id.reg_button)
         reg_button.setOnClickListener{
             val Intent1 = Intent(this,register::class.java)
             startActivity(Intent1)
         }
-        var login_button: Button = findViewById(R.id.login_button)
+        val login_button: Button = findViewById(R.id.login_button)
         login_button.setOnClickListener{
-            var IntentHome = Intent(this, home::class.java)
+            val IntentHome = Intent(this, home::class.java)
             if (edit_login.text.toString()=="admin" && edit_password.text.toString()=="admin"){
                 startActivity(IntentHome)
             }
