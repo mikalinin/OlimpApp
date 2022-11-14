@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".OlimpInfo">
 
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="140dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
