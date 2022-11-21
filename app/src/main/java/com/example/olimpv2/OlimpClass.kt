@@ -4,7 +4,7 @@ data class OlimpClass(
     val title:String,
     val subjects:List<String>,
     val classes:List<Int>,
-    val rating:Float,
+    val rating: Double,
     val link:String,
-    val time_table:Map<String, String>
+    val time_table: List<Any>
 )
