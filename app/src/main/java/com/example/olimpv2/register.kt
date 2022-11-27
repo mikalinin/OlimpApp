@@ -16,7 +16,7 @@ import com.fasterxml.jackson.module.kotlin.jsonMapper
         val edit_name: EditText = findViewById(R.id.edit_name)
         val edit_class: EditText = findViewById(R.id.edit_class)
         val edit_login: EditText = findViewById(R.id.edit_login_reg)
-        val User = UserClass(edit_name.text.toString(), edit_class.text.toString().toInt(), edit_login.text.toString())
+        //val User = UserClass(edit_name.text.toString(), edit_class.text.toString().toInt(), edit_login.text.toString())
         //val userJson = jsonMapper().writeValueAsString(User)
 
     }
