@@ -42,8 +42,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_300"
-        tools:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo" />
 
     <EditText
         android:id="@+id/edit_login"
