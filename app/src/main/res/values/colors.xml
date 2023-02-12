@@ -7,7 +7,6 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <!--  screen_6 colors  -->
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
@@ -18,4 +17,7 @@
     <color name="line_1_color">#C8C8C8</color>
     <color name="ellipse_21_color">#ffffff</color>
     <color name="indicator_ek1_color">#E8EBF4</color>
+    <color name="normal_black">#404040</color>
+    <color name="normal_yellow">#F5C651</color>
+    <color name="transparent_white">#CCFFFFFF</color>
 </resources>

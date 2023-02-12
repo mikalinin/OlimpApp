@@ -23,31 +23,18 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent1)
         }
         val login_button: Button = findViewById(R.id.login_button)
+        val login_Data = mutableMapOf<String, String>("admin" to "admin")
         login_button.setOnClickListener{
             val IntentHome = Intent(this, home::class.java)
-            if (edit_login.text.toString()=="admin" && edit_password.text.toString()=="admin"){
+            val user_Login = edit_login.text.toString()
+            val user_Password = edit_password.text.toString()
+            if (login_Data.containsKey(user_Login) && login_Data.containsValue(user_Password)){
                 startActivity(IntentHome)
             }
+            else {
+                val toast = Toast.makeText(this,"Некоторые данные заполнены некорректно!",Toast.LENGTH_SHORT)
+                toast.show()
+            }
+        }
         }
     }
-
-    //Мое
-    fun loginQuery():Boolean{
-        val edit_login: EditText= findViewById(R.id.edit_login)
-        val edit_password: EditText=findViewById(R.id.edit_password1)
-        if (edit_login.getText().toString()=="" || edit_password.getText().toString()==""){
-            return false
-        }
-        return true
-    }
-    fun onLogin(){
-        val toast = Toast.makeText(this,"Некоторые данные заполнены некорректно!",Toast.LENGTH_SHORT)
-        if (loginQuery()) {
-            val home_intent = Intent(this, home::class.java)
-            startActivity(home_intent)
-        }
-        else {
-            toast.show()
-        }
-    }
-}
