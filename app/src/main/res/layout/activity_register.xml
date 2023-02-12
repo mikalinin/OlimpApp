@@ -8,32 +8,21 @@
 
     <EditText
         android:id="@+id/edit_name"
-        android:layout_width="201dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="28dp"
+        android:layout_width="263dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="имя пользователя/логин"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:text="Введите имя:"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="19dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="60dp"
         android:text="Регистрация"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,58 +30,26 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edit_login_reg"
-        android:layout_width="201dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="236dp"
+        android:id="@+id/edit_password"
+        android:layout_width="263dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="182dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
-        android:text="Введите логин:"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="16dp" />
-
-    <EditText
-        android:id="@+id/edit_class"
-        android:layout_width="201dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="168dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="182dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="176dp"
-        android:text="Введите класс:"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="19dp" />
+        android:text="пароль"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="310dp"
         android:text="Зарегистрироваться"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_password" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
